@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.header-menu i {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.logo-ohmyfood {
+    margin-top: 14px;
+    height: 30px;
+}
+
+.icon-retour {
+    width: 17.2px;
+    height: 16px;
+    color: #353535;
+}
+.menu-img img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    background-position: center;
+}
+
+/* Footer Content */
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+    ;
+    height: 27px;
+    width: 139px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    padding: 22px 25px 22px 25px;
+    gap: 16px;
+    color: #ffffff;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer .footer-content a {
+    text-decoration: none;
+    color: #ffffff;
+}
